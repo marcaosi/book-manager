@@ -14,5 +14,3 @@ You will also see any lint errors in the console.
  - run npm install -g json-server
  - create a database.json in ./
  - run json-server --watch database.json --port 3001
-
-Access http://github.com/marcaosi/book-manager-api.git to clone the server repo.
