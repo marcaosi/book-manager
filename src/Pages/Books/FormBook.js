@@ -12,7 +12,7 @@ export default () => {
              .then(data => {
                 setBook(data.data)
              })
-    }, [])
+    }, [id])
 
     function handleChangeInput(event){
         const {name, value} = event.target
