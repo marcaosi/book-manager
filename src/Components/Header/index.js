@@ -9,10 +9,10 @@ export default () => {
             <Collapse isOpen={isOpen} navbar>
             <Nav navbar className="m-auto">
                 <NavItem>
-                    <NavLink href="/livros/cadastrar">Adicionar Livros</NavLink>
+                    <NavLink href="/book/add">Adicionar Livros</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="/livros">Listar Livros</NavLink>
+                    <NavLink href="/book">Listar Livros</NavLink>
                 </NavItem>
             </Nav>
             </Collapse>
